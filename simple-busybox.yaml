@@ -12,8 +12,8 @@ spec:
     imagePullPolicy: IfNotPresent
     name: busybox
     resources:
-      request:
+      requests:
         cpu: "100m"
-      limit:
+      limits:
         cpu: "100m"
   restartPolicy: Always
